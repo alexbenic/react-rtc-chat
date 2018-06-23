@@ -1,0 +1,41 @@
+body {
+  font-size: 1em !important;
+  font-family: OpenSans, Helvetica, sans-serif;
+}
+
+.ofc {
+  object-fit: contain;
+}
+
+.c-react {
+  color: #00d8ff;
+}
+
+.bg-react {
+  background-color: #00d8ff;
+}
+
+.f-form {
+  position: relative;
+  top: 25%;
+}
+
+.f-input {
+  width: 290px;
+  height: 50px;
+  border: 1px solid #cacaca;
+  box-shadow: 0 0 1px 1px #58585859 inset;
+}
+
+.f-button {
+  max-width: 70px;
+}
+
+.bg-sidebar {
+  background-color:  #2c303b;
+  color: white;
+}
+
+.l-list:last-child {
+  border-bottom: 0;
+}
