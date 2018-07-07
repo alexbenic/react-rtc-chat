@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class MessageForm extends Component {
   constructor(props) {
@@ -38,5 +39,10 @@ class MessageForm extends Component {
     );
   }
 }
+
+MessageForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
+};
 
 export default MessageForm;

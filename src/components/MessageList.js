@@ -1,5 +1,6 @@
 import React from "react";
 import classnames from "classnames";
+import * as Types from '../types'
 
 const MessageList = ({ current, messages }) => {
   const nickCls = classnames(
@@ -32,5 +33,10 @@ const MessageList = ({ current, messages }) => {
     </div>
   );
 };
+
+MessageList.propTypes = {
+  current: Types.User.isRequired,
+  messages: Types.Messages.isRequired,
+}
 
 export default MessageList;

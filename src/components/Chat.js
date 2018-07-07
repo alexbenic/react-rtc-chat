@@ -1,7 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 import MessageList from "./MessageList";
 import MessageForm from "./MessageForm";
 import SideNav from "./SideNav";
+import * as Types from "../types";
 
 const Chat = ({ current, users, messages, stats, onSubmit }) => {
   return (
@@ -15,6 +17,14 @@ const Chat = ({ current, users, messages, stats, onSubmit }) => {
       </div>
     </div>
   );
+};
+
+Chat.propTypes = {
+  current: Types.User.isRequired,
+  users: Types.Users.isRequired,
+  messages: Types.Messages.isRequired,
+  stats: Types.Stats.isRequired,
+  onSubmit: PropTypes.func
 };
 
 export default Chat;

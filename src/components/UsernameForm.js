@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class UsernameForm extends Component {
   constructor(props) {
@@ -40,6 +41,10 @@ class UsernameForm extends Component {
       </div>
     );
   }
+}
+
+UsernameForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired
 }
 
 export default UsernameForm;

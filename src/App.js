@@ -8,21 +8,6 @@ import { Chat, UsernameForm } from "./components";
 
 import "./App.css";
 
-/**
- * @typedef User
- * @property {string} id - random id
- * @property {string} nick - username
- * @property {WebRTCStream} stream - stream handler
- * @property {EnumApp} app - react or angular
- */
-
-/**
- * @typedef Message
- * @property {string} id randombytes generated unique hash
- * @property {User} sender a user sending message
- * @property {string} message
- */
-
 const adder = op => (app, state) => {
   switch (app) {
     case EnumApp.REACT: {

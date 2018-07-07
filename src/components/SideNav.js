@@ -1,5 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 import UserList from "./UserList";
+import * as Types from "../types";
 
 import angularLogo from "../assets/images/angular_logo.png";
 import reactLogo from "../assets/images/react_logo.png";
@@ -19,6 +21,11 @@ const Counter = ({ angular, react }) => {
   );
 };
 
+Counter.propTypes = {
+  angular: PropTypes.number.isRequired,
+  react: PropTypes.number.isRequired
+};
+
 const SideNav = ({ current, users, stats }) => {
   return (
     <aside className="w-20 pa3 flex flex-column bg-sidebar">
@@ -34,6 +41,12 @@ const SideNav = ({ current, users, stats }) => {
       <Counter angular={stats.angular} react={stats.react} />
     </aside>
   );
+};
+
+SideNav.propTypes = {
+  current: Types.User.isRequired,
+  users: Types.Users,
+  stats: Types.Stats
 };
 
 export default SideNav;

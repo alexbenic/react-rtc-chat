@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import * as Types from '../types'
 
 const UserList = ({ current, users }) => {
   const list = users.filter(user => user.id !== current.id);
@@ -10,6 +12,11 @@ const UserList = ({ current, users }) => {
   );
 };
 
+UserList.propTypes = {
+  current: Types.User.isRequired,
+  users: Types.Users.isRequired,
+}
+
 const ListItem = ({ children }) => {
   return (
     <li className="flex items-center mt2 mb2 pb1 pt1">
@@ -18,5 +25,9 @@ const ListItem = ({ children }) => {
     </li>
   );
 };
+
+ListItem.propTypes = {
+  children: PropTypes.string.isRequired
+}
 
 export default UserList;
