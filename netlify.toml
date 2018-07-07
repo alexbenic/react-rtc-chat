@@ -1,0 +1,11 @@
+[Settings]
+  ID = "b74036d5-f245-493b-84eb-5900be240e7f"
+
+[Build]
+  Publish = ""
+  Functions = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
