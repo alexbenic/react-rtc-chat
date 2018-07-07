@@ -27,6 +27,7 @@ class UsernameForm extends Component {
           <span className="f2 b tc c-react"> Choose nick </span>
           <input
             tabIndex="0"
+            placeholder="nick"
             className="mt3 mb3 outline-0 f-input br3 tc f3 pa2"
             type="text"
             onChange={this.onChange}

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`message form snapshot 1`] = `
+<div>
+  <div
+    class="pt4 pb4 pl2 ma2 bt bw1 b--black-40"
+  >
+    <form
+      class="flex"
+    >
+      <input
+        type="text"
+        class="flex-auto f5 fw5 bg-none b--none outline-0"
+        placeholder="Type a message here then hit ENTER"
+        value=""
+      />
+    </form>
+  </div>
+</div>
+`;

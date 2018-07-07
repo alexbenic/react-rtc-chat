@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div
+  class="flex-auto mt2"
+>
+  <li
+    class="flex items-center mt2 mb2 pb1 pt1"
+  >
+    <div
+      class="br-100 w1 h1 mr3 bg-green"
+    />
+    maci
+  </li>
+</div>
+`;

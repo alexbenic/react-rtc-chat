@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`username form snapshot 1`] = `
+<div>
+  <div
+    class="vh-100 vw-100 flex flex-column items-center"
+  >
+    <form
+      class="flex flex-column f-form"
+    >
+      <span
+        class="f2 b tc c-react"
+      >
+        Choose nick 
+      </span>
+      <input
+        tabindex="0"
+        placeholder="nick"
+        class="mt3 mb3 outline-0 f-input br3 tc f3 pa2"
+        type="text"
+      />
+      <button
+        class="f3 w-30 center outline-0 bg-react white bn br3 pa2"
+        type="submit"
+      >
+        Enter
+      </button>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<aside
+  class="w-20 pa3 flex flex-column bg-sidebar"
+>
+  <img
+    class="db w-100 h4 center ofc"
+    src="react_logo.png"
+    alt="react logo"
+  />
+  <span
+    data-testid="current-nick"
+    title="zvkr"
+    class="pa2 bb bw-1 tc truncate"
+  >
+    zvkr
+  </span>
+  <div
+    class="flex-auto mt2"
+  />
+  <div
+    class="flex flex-column flex-row-ns flex-none-ns h4 h3-ns ma2"
+  >
+    <div
+      class="flex flex-auto flex-column justify-center items-center pa1"
+    >
+      <img
+        src="angular_logo.png"
+        class="db w3 h3"
+        alt="angular logo"
+      />
+      <span
+        class="tc"
+      >
+        0
+      </span>
+    </div>
+    <div
+      class="flex flex-auto flex-column justify-center items-center p1"
+    >
+      <img
+        src="react_logo.png"
+        class="db w3 h3"
+        alt="react logo"
+      />
+      <span>
+        1
+      </span>
+    </div>
+  </div>
+</aside>
+`;

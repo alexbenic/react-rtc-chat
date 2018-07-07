@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chat snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-column vh-100"
+  >
+    <div
+      class="flex flex-auto"
+    >
+      <aside
+        class="w-20 pa3 flex flex-column bg-sidebar"
+      >
+        <img
+          class="db w-100 h4 center ofc"
+          src="react_logo.png"
+          alt="react logo"
+        />
+        <span
+          data-testid="current-nick"
+          title="zvrk"
+          class="pa2 bb bw-1 tc truncate"
+        >
+          zvrk
+        </span>
+        <div
+          class="flex-auto mt2"
+        >
+          <li
+            class="flex items-center mt2 mb2 pb1 pt1"
+          >
+            <div
+              class="br-100 w1 h1 mr3 bg-green"
+            />
+            zoom
+          </li>
+          <li
+            class="flex items-center mt2 mb2 pb1 pt1"
+          >
+            <div
+              class="br-100 w1 h1 mr3 bg-green"
+            />
+            maci
+          </li>
+        </div>
+        <div
+          class="flex flex-column flex-row-ns flex-none-ns h4 h3-ns ma2"
+        >
+          <div
+            class="flex flex-auto flex-column justify-center items-center pa1"
+          >
+            <img
+              src="angular_logo.png"
+              class="db w3 h3"
+              alt="angular logo"
+            />
+            <span
+              class="tc"
+            >
+              1
+            </span>
+          </div>
+          <div
+            class="flex flex-auto flex-column justify-center items-center p1"
+          >
+            <img
+              src="react_logo.png"
+              class="db w3 h3"
+              alt="react logo"
+            />
+            <span>
+              2
+            </span>
+          </div>
+        </div>
+      </aside>
+      <section
+        class="pa2 w-80 flex flex-column"
+      >
+        <div
+          class="flex-auto"
+        >
+          <ul
+            class="list pl2"
+          >
+            <li
+              class="mv1 l-list pt3 bb bw1 b--light-gray"
+            >
+              <span
+                class="b mv2 b2 ba bw1 b--light-gray pv1 ph2 br3"
+              >
+                zvrk
+              </span>
+              <p
+                class="l-list f5 ph2"
+              >
+                hello
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="pt4 pb4 pl2 ma2 bt bw1 b--black-40"
+        >
+          <form
+            class="flex"
+          >
+            <input
+              type="text"
+              class="flex-auto f5 fw5 bg-none b--none outline-0"
+              placeholder="Type a message here then hit ENTER"
+              value=""
+            />
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;

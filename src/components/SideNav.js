@@ -34,7 +34,11 @@ const SideNav = ({ current, users, stats }) => {
         src={reactLogo}
         alt="react logo"
       />
-      <span title={current.nick} className="pa2 bb bw-1 tc truncate">
+      <span
+        data-testid="current-nick"
+        title={current.nick}
+        className="pa2 bb bw-1 tc truncate"
+      >
         {current.nick}
       </span>
       <UserList current={current} users={users} />

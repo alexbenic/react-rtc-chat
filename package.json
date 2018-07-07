@@ -7,10 +7,10 @@
     "debug": "^3.1.0",
     "end-of-stream": "^1.4.1",
     "normalize.css": "^8.0.0",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.6.2",
     "randombytes": "^2.0.6",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
     "signalhub": "^4.9.0",
     "split2": "^2.2.0",
@@ -24,5 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest-each": "^23.2.0",
+    "react-testing-library": "^4.1.2"
   }
 }

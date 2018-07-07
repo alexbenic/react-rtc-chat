@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`message list snapshot 1`] = `
+<div>
+  <div
+    class="flex-auto"
+  >
+    <ul
+      class="list pl2"
+    >
+      <li
+        class="mv1 l-list pt3 bb bw1 b--light-gray"
+      >
+        <span
+          class="b mv2 b2 ba bw1 b--light-gray pv1 ph2 br3"
+        >
+          zvrk
+        </span>
+        <p
+          class="l-list f5 ph2"
+        >
+          yo!
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

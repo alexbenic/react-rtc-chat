@@ -11,7 +11,12 @@ const Users = PropTypes.arrayOf(User);
 
 const Message = PropTypes.shape({
   id: PropTypes.string,
-  sender: PropTypes.objectOf(User),
+  sender: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    nick: PropTypes.string.isRequired,
+    stream: PropTypes.object,
+    app: PropTypes.oneOf([1, 2]) /* EnumApp */
+  }),
   message: PropTypes.string
 });
 
